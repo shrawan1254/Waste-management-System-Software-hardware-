@@ -28,7 +28,8 @@ A Vite + React TypeScript web application for managing smart dustbins and waste 
 - A Supabase project (for Auth and Database)
 
 ## Environment variables
-Create a `.env` file in the project root (do NOT check it into Git). Common variables used in this project:
+Create a `.env` file in the project root. 
+Common variables used in this project:
 
 - `VITE_SUPABASE_URL` — your Supabase project URL
 - `VITE_SUPABASE_ANON_KEY` — public anon key for Supabase
@@ -72,21 +73,10 @@ npm run preview
 - If you add CI/CD or deployment (Vercel/Netlify), add their output folders to `.gitignore` (already included).
 
 ## Contributing
-- Fork the repo, create a feature branch, and open a PR.
-
-## License
-Add your preferred license here (e.g., MIT). If you want, I can add an `LICENSE` file.
-
----
-
-If you'd like, I can also:
-- create a short `Getting Started` section specific to your Supabase schema,
-- add a `LICENSE` file,
-- or commit this README for you.
-
-What would you like next?
+Myself shrawan,Pranshu,Kalash,Aryan
+With there help and contribution i would have never finished this project!
 
   Run `npm i` to install the dependencies.
 
   Run `npm run dev` to start the development server.
-  clear
+  
