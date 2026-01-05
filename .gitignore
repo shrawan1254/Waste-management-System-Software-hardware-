@@ -1,1 +1,56 @@
 node_modules
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# React build files
+client/build/
+build/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+
+# Vite / build / caches
+# Local env overrides
+.env.*.local
+# Vite dev cache
+.vite/
+# Build output
+dist/
+# Generic caches
+.cache/
+.parcel-cache/
+# Tool caches
+.eslintcache
+*.tsbuildinfo
+.nyc_output/
+# Storybook
+storybook-static/
+# Monorepo / tooling
+.turbo/
+.history/
+# Deploy previews
+.vercel/
+.netlify/
+.firebase/
