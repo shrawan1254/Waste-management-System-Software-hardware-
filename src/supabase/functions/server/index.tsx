@@ -146,7 +146,7 @@ app.get('/make-server-8719e5e4/dustbins/live/:id', requireAuth, async (c) => {
     
     try {
       // Fetch live data from Blynk (using virtual pin V1 for fill level)
-      const blynkResponse = await fetch(`https://blynk.cloud/external/api/get?token=${blynkToken}&V1`)
+      const blynkResponse = await fetch(`https://blynk.cloud/external/api/get?token=${########}&V1`)
       
       if (blynkResponse.ok) {
         const fillLevel = await blynkResponse.text()
