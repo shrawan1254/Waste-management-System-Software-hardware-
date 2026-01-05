@@ -68,10 +68,6 @@ npm run preview
 ## Supabase functions
 - Serverless code lives in `src/supabase/functions` (or `supabase/functions/server`). Deploy these with the Supabase CLI if you use them.
 
-## Notes and tips
-- Keep `.env` values secret. The `.gitignore` includes common entries for Vite, caches, and deploy folders.
-- If you add CI/CD or deployment (Vercel/Netlify), add their output folders to `.gitignore` (already included).
-
 ## Contributing
 Myself shrawan,Pranshu,Kalash,Aryan
 With there help and contribution i would have never finished this project!
